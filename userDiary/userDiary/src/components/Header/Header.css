@@ -1,0 +1,36 @@
+/* File: src/components/Header.css */
+.header {
+    padding: 10px;
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  
+  /* File: src/pages/Home.css */
+  .home-container {
+    padding: 20px;
+  }
+  .home-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  .home-container li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* File: src/pages/UserDetails.css */
+  .user-details {
+    padding: 20px;
+  }
+  .error {
+    color: red;
+  }
+  
