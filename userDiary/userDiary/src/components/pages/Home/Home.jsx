@@ -24,7 +24,7 @@ const Home = () => {
           <li key={user.id}>
             {user.name}
             <Link to={`/user/${user.id}`}>
-              <button>View Details</button>
+              <button id='btn-detail'>View Details</button>
             </Link>
           </li>
         ))}
